@@ -18,41 +18,45 @@
 
     <section class="add-books-section">
       <h3>Add Books</h3>
-      <form action="">
+      <form action="" class="form-margin-padding">
         <div class="row row-zero-margin-padding">
-          <div class="col-md-10">
+          <div class="col-lg-9 col-md-7">
             <div class="row">
               <div class="col-md-6">
                 <div class="book-forms">
-                  <label for="">Book Name</label>
+                  <label for="" class="label">Book Name</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Author Name</label>
+                  <label for="" class="label">Author Name</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Category</label>
+                  <label for="" class="label">Category</label>
+                  <div>
+                    <select name="" id="" class="book-select-options">
+                      <option value=""></option>
+                      <option value="">Value 2</option>
+                      <option value="">Value 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="book-forms">
+                  <label for="" class="label">Pages</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Pages</label>
-                  <div>
-                    <input type="text" class="book-form-size" />
-                  </div>
-                </div>
-
-                <div class="book-forms">
-                  <label for="">Quantity</label>
+                  <label for="" class="label">Quantity</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
@@ -60,35 +64,35 @@
               </div>
               <div class="col-md-6">
                 <div class="book-forms">
-                  <label for="">Book Name</label>
+                  <label for="" class="label">ISBN Number</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Author Name</label>
+                  <label for="" class="label">DOI Number</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Category</label>
+                  <label for="" class="label">Publisher Name</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Pages</label>
+                  <label for="" class="label">Publisher Date</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
                 </div>
 
                 <div class="book-forms">
-                  <label for="">Quantity</label>
+                  <label for="" class="label">Shelf Number</label>
                   <div>
                     <input type="text" class="book-form-size" />
                   </div>
@@ -104,24 +108,78 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="row">
+          <div class="col-lg-3 col-md-5">
+            <div class="row row-zero-margin-padding">
               <div class="col-md-12">
-                <div class="add-books-div"></div>
+                <div class="add-books-div">
+                  <img src="images/Vector.png" alt="" class="add-books-image" />
+                </div>
                 <button class="choose-image-button">Choose Image</button>
               </div>
 
               <div class="col-md-12">
-                <div class="geenrate-qr-code-div"></div>
-                <button>Generate QR code</button>
+                <div class="geenrate-qr-code-div">
+                  <img src="images/qr.png" alt="" class="qr-code-image" />
+                </div>
+                <button
+                  class="generate-qr-button"
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Generate QR code
+                </button>
+              </div>
+
+              <div class="col-md-12">
+                <button class="add-book-button">Add Book</button>
               </div>
             </div>
           </div>
         </div>
       </form>
     </section>
-
     <!-- ----------------------------------------------------------------------------- end - Add books section -->
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
