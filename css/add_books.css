@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row-zero-margin-padding {
+  margin: 0;
+  padding: 0;
+}
+
+.add-books-div {
+  width: 166px;
+  height: 260px;
+  background-color: #ffffff;
+  border: 1px solid #868686;
+  box-sizing: border-box;
+}
+
+.geenrate-qr-code-div {
+  width: 166px;
+  height: 134px;
+  border: 1px solid #868686;
+  margin-top: 20px;
+}
+
+.choose-image-button {
+  margin-top: 10px;
+  width: 166px;
+}
