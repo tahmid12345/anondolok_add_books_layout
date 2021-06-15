@@ -90,3 +90,46 @@ input[type="text"] {
   border: 1px solid #a4a4a4;
   padding: 2px;
 }
+
+.modal-section-css {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.modal-qr-code-div {
+  display: block;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.modal-qr-code-image {
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.modal-print-qr-code-button {
+  width: 237px;
+  margin-top: 15px;
+  background: #81c784;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+}
+
+.modal-generate-qr-code-button {
+  width: 237px;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

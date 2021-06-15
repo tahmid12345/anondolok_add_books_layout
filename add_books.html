@@ -18,6 +18,9 @@
 
     <section class="add-books-section">
       <h3>Add Books</h3>
+
+      <!-- --------------------------- form -------------------------- -->
+
       <form action="" class="form-margin-padding">
         <div class="row row-zero-margin-padding">
           <div class="col-lg-9 col-md-7">
@@ -42,6 +45,7 @@
                   <div>
                     <select name="" id="" class="book-select-options">
                       <option value=""></option>
+                      <option value="">Value 1</option>
                       <option value="">Value 2</option>
                       <option value="">Value 3</option>
                     </select>
@@ -139,10 +143,10 @@
           </div>
         </div>
       </form>
+
+      <!-- ---------------------------------------------------- end form -->
     </section>
     <!-- ----------------------------------------------------------------------------- end - Add books section -->
-
-    <!-- Button trigger modal -->
 
     <!-- Modal -->
     <div
@@ -156,7 +160,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
             <button
               type="button"
               class="close"
@@ -166,8 +170,30 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
+          <div class="modal-body">
+            <!-- ---------------------------- QR CODE modal code ----------------------------------- -->
+            <div class="row row-zero-margin-padding">
+              <div class="col-lg-12 col-md-12 modal-section-css">
+                <p>QR Code Generated Succesfully!</p>
+                <div class="modal-qr-code-div">
+                  <img
+                    src="images/modal_qr_image.png"
+                    alt=""
+                    class="modal-qr-code-image"
+                  />
+                </div>
+                <button class="modal-print-qr-code-button">
+                  Print QR Code
+                </button>
+
+                <button class="modal-generate-qr-code-button">
+                  Generate Another QR Code
+                </button>
+              </div>
+            </div>
+            <!-- ---------------------------------------------------------- end - QR CODE modal code -->
+          </div>
+          <!-- <div class="modal-footer">
             <button
               type="button"
               class="btn btn-secondary"
@@ -176,10 +202,12 @@
               Close
             </button>
             <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
+
+    <!-- end modal -->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
