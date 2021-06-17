@@ -78,12 +78,12 @@
 
 .publish-book-button {
   width: 120px;
-  background-color: #81c784;
-  color: #ffffff;
+  background: #dddddd;
   border: 0;
   padding: 7px 0;
   border-radius: 5px;
   margin: 5px;
+  color: #3d3d3d;
 }
 
 /* -------------------------- end - publish online and add books */
