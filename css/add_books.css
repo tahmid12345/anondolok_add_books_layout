@@ -58,15 +58,35 @@
   margin-bottom: -10px;
 }
 
-.add-book-button {
+/* ----------- publish online and add books ---------------------- */
+
+.publish_online_and_book_button {
   margin-top: 40px;
-  width: 166px;
+  display: flex;
+  justify-content: right;
+}
+
+.add-book-button {
+  width: 120px;
   background-color: #81c784;
   color: #ffffff;
   border: 0;
   padding: 7px 0;
   border-radius: 5px;
+  margin: 5px;
 }
+
+.publish-book-button {
+  width: 120px;
+  background-color: #81c784;
+  color: #ffffff;
+  border: 0;
+  padding: 7px 0;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* -------------------------- end - publish online and add books */
 
 input[type="text"] {
   background-color: #ffffff;
@@ -92,6 +112,8 @@ input[type="text"] {
   border: 1px solid #a4a4a4;
   padding: 2px;
 }
+
+/* --------------------- modal section---------------------- */
 
 .modal-section-css {
   text-align: center;
@@ -136,4 +158,24 @@ input[type="text"] {
   border-radius: 5px;
 }
 
+/* ------------------------------- end - modal section */
+
+/* ------------------ form - choose image and generate qr ------------------ */
+.grid-right {
+  display: grid;
+  justify-content: right;
+}
+/* ------------------------------- end - form-choose image and generate qr */
+
 /* --------------------------------------------------------------------------------- end - Add books css  */
+
+/* --------------------------- media screen for mobile ------------------------------------ */
+
+@media screen and (max-width: 640px) {
+  .grid-right {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+/* ----------------------------------------------------------- end media screen for mobile */
