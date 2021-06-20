@@ -154,6 +154,7 @@
             <div class="row row-zero-margin-padding">
               <div class="col-md-12">
                 <div class="grid-right">
+                  <!-- ------- add books image layout------- -->
                   <div class="add-books-div">
                     <img
                       src="images/Vector.png"
@@ -161,12 +162,16 @@
                       class="add-books-image"
                     />
                   </div>
-                  <button class="choose-image-button">Choose Image</button>
+                  <div class="choose-image-file-div">
+                    <input type="file" class="choose-image-file-button" />
+                  </div>
+                  <!-- ---------end - add books image layout -->
                 </div>
               </div>
 
               <div class="col-md-12">
                 <div class="grid-right">
+                  <!-- ------------ qr scanner layout ----- -->
                   <div class="geenrate-qr-code-div">
                     <img src="images/qr.png" alt="" class="qr-code-image" />
                   </div>
@@ -179,6 +184,7 @@
                   >
                     Generate QR code
                   </button>
+                  <!-- ------------ end - qr scanner layout  -->
                 </div>
               </div>
 
@@ -202,7 +208,7 @@
     </section>
     <!-- ----------------------------------------------------------------------------- end - Add books section -->
 
-    <!-- Modal -->
+    <!-- ---------------------------------- qr code section modal ------------------------- -->
     <div
       class="modal fade"
       id="exampleModal"
@@ -225,7 +231,6 @@
             </button>
           </div>
           <div class="modal-body">
-            <!-- ---------------------------- QR CODE modal code ----------------------------------- -->
             <div class="row row-zero-margin-padding">
               <div class="col-lg-12 col-md-12 modal-section-css">
                 <p>QR Code Generated Succesfully!</p>
@@ -245,7 +250,6 @@
                 </button>
               </div>
             </div>
-            <!-- ---------------------------------------------------------- end - QR CODE modal code -->
           </div>
           <!-- <div class="modal-footer">
             <button
@@ -261,7 +265,7 @@
       </div>
     </div>
 
-    <!-- end modal -->
+    <!-- --------------------------------------------------------- end - qr code section modal -->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

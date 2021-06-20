@@ -17,7 +17,7 @@
 
 .add-books-div {
   width: 166px;
-  height: 260px;
+  height: 230px;
   background-color: #ffffff;
   border: 1px solid #868686;
   box-sizing: border-box;
@@ -40,13 +40,23 @@
   margin-top: 20px;
 }
 
-.choose-image-button {
+/* --------------- choose image file ---------- */
+
+.choose-image-file-div {
+  display: block;
+  margin: auto;
+}
+
+.choose-image-file-button {
   margin-top: 10px;
-  width: 166px;
+  width: 100px;
   background: #dddddd;
   border: 1px solid #000000;
   box-sizing: border-box;
+  /* text-align: center; */
 }
+
+/* -------------------- end - choose image file */
 
 .generate-qr-button {
   margin-top: 10px;
@@ -107,7 +117,7 @@ input[type="text"] {
 .add-books-image {
   display: block;
   margin: auto;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 
 .qr-code-image {
@@ -182,7 +192,7 @@ label {
 }
 /* ------------------------------- end - form-choose image and generate qr */
 
-/* --------------------------------------------------------------------------------- end - Add books css  */
+/* ------------------------------------------------------------------------------------ end - Add books css  */
 
 /* --------------------------- media screen for mobile ------------------------------------ */
 
